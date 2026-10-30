@@ -1,0 +1,137 @@
+RETROSPECTIVE BIG FIVE FULL TARGET-ITEM BANK DIAGNOSTICS
+Training data only. All 60 target items; all four nuisance items excluded before respondent eligibility checks.
+This is a fixed 5000-person diagnostic subsample, NOT the original full-human calibration reference.
+Zeros/out-of-range responses become missing; complete cases on 60 targets define eligibility. Counts are recorded; no imputation.
+Human IPIP responses are already keyed. No additional reverse coding or dichotomisation.
+All 60 items retained; no automated item deletion. Empty observed categories are recoded consecutively, as in main-study GRM preparation, and recorded.
+One-factor GRM: mirt, EM, NCYCLES=5000, other installed defaults; convergence checked explicitly.
+Global fit: polytomous C2, calcNull=TRUE; retry without null indices only after a genuine null/global error.
+Item fit: S-X2 mincell=1, na.rm=FALSE, no automatic response deletion. Holm family contains all 60 items within each scale.
+Parallel analysis uses a fixed 1000-person subset of the 5000-person GRM sample; original training CSV row indices and subset membership are saved.
+An initial 5000-person permutation-analysis attempt exceeded 120 seconds; the final 1000-person PA subset bounds runtime.
+Parallel analysis: Pearson PCA, 200 independent within-item permutations preserving marginal category frequencies; ordered 95th percentiles (quantile type 7).
+Leading consecutive eigenvalues above thresholds define retention; total exceedances and all eigenvalues are also saved.
+Departures from workplace diagnostics: 5000-person GRM subsamples (1000 for PA) rather than all 324; 200 rather than 1000 permutations; C2 rather than binary M2; original keyed ordinal responses only.
+Pearson PCA parallel analysis is a screen, not polychoric factor analysis or proof of latent dimensionality. Its 95th-percentile thresholds have simulation uncertainty.
+Large N increases fitting, correlation/permutation and diagnostic costs; no full-training-bank models are fitted.
+Time limits are R elapsed-time limits per stage (interruptible code), not guaranteed wall-clock caps inside native numerical routines.
+Limits: PA 120 s; GRM 180 s; C2 120 s; S-X2 120 s. Unavailable diagnostics are recorded, never replaced with favorable values.
+training_csv_row is the one-based data-row index, excluding the CSV header; used_in_parallel_analysis identifies the nested PA subset.
+Global p=0 means numerical underflow, not an exactly zero probability. Report p<.001; log-p values are also saved.
+These full-60-bank diagnostics do not directly establish fit of any individual Monte Carlo candidate pool or selected short form.
+Caches contain only this script's retrospective models/results, keyed by inputs, sample rows, settings and installed mirt version.
+R: R version 4.6.1 (2026-06-24)
+mirt: 1.48
+
+SCALE: Extraversion
+Training N=153570; eligible on targets=123866; excluded for target missingness=29704; analysed=5000; input missing/invalid cells=0/37557.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/extraversion/human_responses/human_train_responses.csv MD5: f27be45f997da37ccf52fc23f042518e
+Extraversion parallel_analysis reusing diagnostic cache
+PA leading/total retained: 7 7
+Extraversion grm_model reusing diagnostic cache
+GRM converged: TRUE iterations: 118
+Extraversion C2_global_fit reusing diagnostic cache
+C2: 117666.00019387 df: 1710 p: 0 RMSEA: 0.116468099707528
+Extraversion S_X2_item_fit reusing diagnostic cache
+S-X2 finite: 60 Holm significant: 4
+
+SCALE: Openness
+Training N=153570; eligible on targets=123837; excluded for target missingness=29733; analysed=5000; input missing/invalid cells=0/37510.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/openness/human_responses/human_train_responses.csv MD5: 78e5ff065afd88ca510a48890e5710e2
+Openness parallel_analysis reusing diagnostic cache
+PA leading/total retained: 9 9
+Openness grm_model reusing diagnostic cache
+GRM converged: TRUE iterations: 364
+Openness C2_global_fit reusing diagnostic cache
+C2: 112092.564409291 df: 1710 p: 0 RMSEA: 0.113634607475814
+Openness S_X2_item_fit reusing diagnostic cache
+S-X2 finite: 60 Holm significant: 3
+
+SCALE: Neuroticism
+Training N=153570; eligible on targets=125677; excluded for target missingness=27893; analysed=5000; input missing/invalid cells=0/34683.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/neuroticism/human_responses/human_train_responses.csv MD5: 81d5b00c1c12b347814ca809cea55a09
+Neuroticism parallel_analysis reusing diagnostic cache
+PA leading/total retained: 7 7
+Neuroticism grm_model reusing diagnostic cache
+GRM converged: TRUE iterations: 109
+Neuroticism C2_global_fit reusing diagnostic cache
+C2: 122760.582009248 df: 1710 p: 0 RMSEA: 0.118999138514077
+Neuroticism S_X2_item_fit reusing diagnostic cache
+S-X2 finite: 60 Holm significant: 2
+
+SCALE: Agreeableness
+Training N=153570; eligible on targets=124990; excluded for target missingness=28580; analysed=5000; input missing/invalid cells=0/35709.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/agreeableness/human_responses/human_train_responses.csv MD5: da1600b84df8f12fd0c7963879ea4f3f
+Agreeableness parallel_analysis reusing diagnostic cache
+PA leading/total retained: 8 8
+Agreeableness grm_model reusing diagnostic cache
+GRM converged: TRUE iterations: 137
+Agreeableness C2_global_fit reusing diagnostic cache
+C2: 117487.71614423 df: 1710 p: 0 RMSEA: 0.116378529560357
+Agreeableness S_X2_item_fit reusing diagnostic cache
+S-X2 finite: 60 Holm significant: 11
+
+SCALE: Conscientiousness
+Training N=153570; eligible on targets=122699; excluded for target missingness=30871; analysed=5000; input missing/invalid cells=0/39043.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/conscientiousness/human_responses/human_train_responses.csv MD5: 8612649a71e0186bb3e7c60c9a889dc1
+Conscientiousness parallel_analysis reusing diagnostic cache
+PA leading/total retained: 7 7
+Conscientiousness grm_model reusing diagnostic cache
+GRM converged: TRUE iterations: 64
+Conscientiousness C2_global_fit reusing diagnostic cache
+C2: 120823.363906899 df: 1710 p: 0 RMSEA: 0.11804310410327
+Conscientiousness S_X2_item_fit reusing diagnostic cache
+S-X2 finite: 60 Holm significant: 1
+
+             scale n_respondents pa_n_respondents pa_original_leading       C2
+      Extraversion          5000             1000                   7 117666.0
+          Openness          5000             1000                   9 112092.6
+       Neuroticism          5000             1000                   7 122760.6
+     Agreeableness          5000             1000                   8 117487.7
+ Conscientiousness          5000             1000                   7 120823.4
+   df     RMSEA      SRMSR       CFI       TLI item_fit_holm_significant_n
+ 1710 0.1164681 0.09201037 0.7958587 0.7886958                           4
+ 1710 0.1136346 0.09995956 0.6317993 0.6188800                           3
+ 1710 0.1189991 0.08660700 0.8390780 0.8334317                           2
+ 1710 0.1163785 0.09713268 0.6983959 0.6878133                          11
+ 1710 0.1180431 0.09365462 0.7812267 0.7735504                           1
+
+R version 4.6.1 (2026-06-24)
+Platform: x86_64-apple-darwin20
+Running under: macOS Tahoe 26.6
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6-x86_64/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6-x86_64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: Europe/Oslo
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] GPArotation_2026.8-2 future_1.80.0        generics_0.1.4      
+ [4] class_7.3-23         lattice_0.22-9       listenv_1.1.0       
+ [7] digest_0.6.39        magrittr_2.0.5       grid_4.6.1          
+[10] splines2_0.5.4       beepr_2.0            R.oo_1.27.1         
+[13] qs2_0.3.1            Matrix_1.7-5         R.utils_2.13.0      
+[16] mirt_1.48            sessioninfo_1.2.4    brio_1.1.5          
+[19] e1071_1.7-17         gridExtra_2.3.1      audio_0.1-12        
+[22] mgcv_1.9-4           dcurver_0.9.3        permute_0.9-10      
+[25] pbapply_1.7-5        codetools_0.2-20     cli_3.6.6           
+[28] rlang_1.3.0          R.methodsS3_1.8.2    parallelly_1.48.0   
+[31] future.apply_1.20.2  splines_4.6.1        otel_0.2.0          
+[34] vegan_2.7-6          tools_4.6.1          parallel_4.6.1      
+[37] dplyr_1.2.1          globals_0.20.0       Deriv_4.3.5         
+[40] vctrs_0.7.3          R6_2.6.1             stats4_4.6.1        
+[43] proxy_0.4-29         lifecycle_1.0.5      SimDesign_2.28      
+[46] stringfish_0.19.2    MASS_7.3-65          cluster_2.1.8.2     
+[49] pkgconfig_2.0.3      clipr_0.8.1          gtable_0.3.6        
+[52] progressr_1.0.0      RcppParallel_6.2.1   pillar_1.11.1       
+[55] glue_1.8.1           Rcpp_1.1.2           tibble_3.3.1        
+[58] tidyselect_1.2.1     nlme_3.1-169         testthat_3.3.2      
+[61] compiler_4.6.1      

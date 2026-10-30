@@ -1,0 +1,7 @@
+SECONDARY DATA
+Extraversion data taken from https://osf.io/wxvth/files/jdu2v
+And extraversion scoring data taken from https://osf.io/ycvdk/overview
+
+RESPONSE CATEGORY COLLAPSE
+if fitting a mirt package model (unidimensional GRM IRT model) to data and not all response options chosen in calibration sample (e.g., 1, 2, 3 get some responses but never 0), the 'test' data has to be collapsed in the exact same way.
+

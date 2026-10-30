@@ -1,0 +1,40 @@
+﻿scale,variable_name,item_text,potentially_weak_item,reviewer_flag,reverse_keyed,concern_type,reasoning
+Work-related Honesty–Humility,HH_W_N_promotion,I would never tell a lie to get a promotion.,,,,,
+Work-related Honesty–Humility,HH_W_N_coworkers,I put the needs of my coworkers before my own.,1,1,,Off-construct / altruism,Closer to altruism than Honesty–Humility.
+Work-related Honesty–Humility,HH_W_N_responsibility,I try to recognize when I have made a mistake and take responsibility for it.,,,,,
+Work-related Honesty–Humility,HH_W_N_perspectives,I strive to understand different perspectives.,1,1,,Off-construct / Agreeableness or Openness,Reads more like Agreeableness or Openness than Honesty–Humility.
+Work-related Honesty–Humility,HH_W_N_criticism,I am willing to listen to constructive criticism.,1,1,,Off-construct / Agreeableness or Openness,Reads more like Agreeableness or Openness than Honesty–Humility.
+Work-related Honesty–Humility,HH_W_N_credt,"When given credit, I make sure to share it with those who deserve it.",,,,,
+Work-related Honesty–Humility,HH_W_N_pressure,"Even when there is pressure from others, I remain honest about my work.",,,,,
+Work-related Honesty–Humility,HH_W_N_opportunity,"If given the opportunity, I will try to benefit myself over others.",,,,,
+Work-related Honesty–Humility,HH_W_N_colleagues,"When talking with colleagues, I always aim to stay positive and respectful.",1,1,,Off-construct / Agreeableness or Openness,Reads more like Agreeableness or Openness than Honesty–Humility.
+Work-related Honesty–Humility,HH_W_N_disagreements,"In disagreements, I strive to be open-minded and accept other opinions.",1,1,,Off-construct / Agreeableness or Openness,Reads more like Agreeableness or Openness than Honesty–Humility.
+Work-related Honesty–Humility,HH_W_N_respect,"When working in teams, I give everyone equal respect regardless of rank or experience.",,,,,
+Work-related Honesty–Humility,HH_W_N_integrity,"Even when facing tough challenges, I maintain my integrity.",,,,,
+Work-related Honesty–Humility,HH_W_N_guidance,"When working on tasks that are difficult or unfamiliar, I seek guidance rather than staying quiet.",1,1,,Off-construct / unclear HH mapping,Does not map cleanly onto Honesty–Humility.
+Work-related Honesty–Humility,HH_W_N_ownership,"When in a leadership position, I take ownership of successes and failures.",,,,,
+Work-related Honesty–Humility,HH_W_N_recognition,"Rather than seeking recognition or praise for myself, I prefer to focus on team success.",,,,,
+Work-related Honesty–Humility,HH_W_N_doublecheck,"To ensure accurate results, I double check my work before submitting it.",,,,,
+Work-related Honesty–Humility,HH_W_N_meetings,"In meetings or presentations, I make sure not to exaggerate facts.",,,,,
+Work-related Honesty–Humility,HH_W_N_assistance,"If a colleague is struggling with their work load, I offer assistance if possible.",,,,,
+Work-related Honesty–Humility,HH_W_N_attacks,"When someone has done something wrong, I treat them fairly and avoid personal attacks.",,,,,
+Work-related Honesty–Humility,HH_W_N_humility,"At all times, I aim to maintain an attitude of humility.",,,,,
+Work-related Conscientiousness,C_W_N_details,I am organized and pay attention to details.,,,,,
+Work-related Conscientiousness,C_W_N_tasks,I finish tasks on time.,,,,,
+Work-related Conscientiousness,C_W_N_records,I keep accurate records of my work.,,,,,
+Work-related Conscientiousness,C_W_N_responsibility,I take responsibility for my mistakes.,,,,,
+Work-related Conscientiousness,C_W_N_standards,I set high standards for myself.,,,,,
+Work-related Conscientiousness,C_W_N_safety,I follow safety protocols.,,,,,
+Work-related Conscientiousness,C_W_N_workhours,I am flexible with my work hours.,,,,,
+Work-related Conscientiousness,C_W_N_deadlines,I complete assignments ahead of deadlines.,,,,,
+Work-related Conscientiousness,C_W_N_initiative,I take initiative in learning new skills or procedures.,,,,,
+Work-related Conscientiousness,C_W_N_feedback,I always seek feedback from my supervisors or peers on how to improve my work performance.,,,,,
+Work-related Conscientiousness,C_W_N_othersresponsibility,I make sure that others are held accountable for their responsibilities.,,,,,
+Work-related Conscientiousness,C_W_N_organization,I proactively look for ways to contribute to the organization’s goals and objectives.,,,,,
+Work-related Conscientiousness,C_W_N_meetings,I come prepared and well-informed to meetings.,,,,,
+Work-related Conscientiousness,C_W_N_changes,I am open to changes in working practices or processes.,1,,,Off-construct / adaptability-openness,Being open to changes in working practices is more directly about adaptability or Openness than core Conscientiousness.
+Work-related Conscientiousness,C_W_N_waste,I waste time at work. (R),,,1,,
+Work-related Conscientiousness,C_W_N_credit,I take credit for the accomplishments of others. (R),1,,1,Off-construct / fairness-honesty content,Taking credit for others' accomplishments is more directly a fairness/Honesty–Humility behaviour than a core Conscientiousness behaviour.
+Work-related Conscientiousness,C_W_N_questions,I rarely ask questions when something is unclear. (R),1,,1,Off-construct / help-seeking-communication,Rarely asking questions when something is unclear is mainly help-seeking or communication behaviour; the link to Conscientiousness is indirect.
+Work-related Conscientiousness,C_W_N_guidelines,I ignore guidelines and policies. (R),,,1,,
+Work-related Conscientiousness,C_W_N_meetingsskip,I skip out on important meetings. (R),,,1,,

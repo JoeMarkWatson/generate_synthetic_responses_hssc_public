@@ -1,0 +1,8 @@
+"Panel","Scale","Human data available","Human-reference calibration N","Other human calibration Ns","Human evaluation N"
+"Panel A. Big Five-based unidimensional scales","Extraversion","153,570 train; 153,571 evaluate",122969,"100, 300, 1,000",121886
+"Panel A. Big Five-based unidimensional scales","Openness","153,570 train; 153,571 evaluate",123026,"100, 300, 1,000",122425
+"Panel A. Big Five-based unidimensional scales","Neuroticism","153,570 train; 153,571 evaluate",124747,"100, 300, 1,000",124026
+"Panel A. Big Five-based unidimensional scales","Agreeableness","153,570 train; 153,571 evaluate",124254,"100, 300, 1,000",124333
+"Panel A. Big Five-based unidimensional scales","Conscientiousness","153,570 train; 153,571 evaluate",121998,"100, 300, 1,000",121562
+"Panel B. Newly developed workplace scales","Work Conscientiousness","324 total",224,"100",100
+"Panel B. Newly developed workplace scales","Work Honesty–Humility","324 total",224,"100",100

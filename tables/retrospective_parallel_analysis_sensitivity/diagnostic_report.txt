@@ -1,0 +1,90 @@
+RETROSPECTIVE PARALLEL-ANALYSIS SENSITIVITY CHECK
+Exactly the saved 1000-person Big Five PA subsets; all 324 workplace respondents. No sampling of respondents.
+All 60 Big Five target items (no nuisance items), all 19/20 workplace items including flagged items. No deletion, imputation or new category collapsing.
+Common-factor PA uses the eigenvalues of a reduced Pearson correlation matrix: diagonal replaced by squared multiple correlations (SMC = 1 - 1/diag(solve(R))).
+This is SMC-based common-factor/principal-axis PA, NOT PCA, NOT minimum-residual fitting and NOT iterative principal-axis factor extraction.
+SMCs are estimated anew for each independently column-permuted null dataset, using the same estimator as the observed matrix. No correlation smoothing or SMC clipping.
+Original permutation seeds and counts are reused: 200 for Big Five; 1000 for workplace. Ordered null 95th percentiles, quantile type 7.
+Retention is the number of leading consecutive eigenvalues exceeding the thresholds. Total exceedances are separately recorded to expose later crossings.
+PCA is recomputed with the identical permutations solely to verify the exact sample/coding/RNG against saved results; old outputs remain untouched.
+Pearson correlations are used for both methods. Ordinal/polychoric and binary/tetrachoric PA are not run: psych/polycor are not installed; no packages installed.
+This is a bounded alternative common-factor sensitivity check, not an ordinal/minres replication. SMC choice and Pearson scaling can affect retention.
+Negative reduced-matrix eigenvalues are permitted and expected; they are not negative eigenvalues of the original correlation matrix.
+95th-percentile retention remains subject to finite-permutation Monte Carlo uncertainty; no additional seeds or respondent subsets are explored.
+psych available: FALSE
+polycor available: FALSE
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/extraversion/human_responses/human_train_responses.csv ; exact PA rows from diagnostic_sample_rows.csv; input/metadata MD5 match saved cache.
+Extraversion Original keyed 1-5 N= 1000 items= 60 permutations= 200
+  Saved PCA reproduced (max error 0); PCA=7; common factors=16 (total crossings=31); 31.6 s.
+  WARNING: Nonconsecutive threshold crossings: inspect spectra; leading rule retained.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/openness/human_responses/human_train_responses.csv ; exact PA rows from diagnostic_sample_rows.csv; input/metadata MD5 match saved cache.
+Openness Original keyed 1-5 N= 1000 items= 60 permutations= 200
+  Saved PCA reproduced (max error 0); PCA=9; common factors=20 (total crossings=32); 31.9 s.
+  WARNING: Nonconsecutive threshold crossings: inspect spectra; leading rule retained.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/neuroticism/human_responses/human_train_responses.csv ; exact PA rows from diagnostic_sample_rows.csv; input/metadata MD5 match saved cache.
+Neuroticism Original keyed 1-5 N= 1000 items= 60 permutations= 200
+  Saved PCA reproduced (max error 0); PCA=7; common factors=11 (total crossings=28); 31.7 s.
+  WARNING: Nonconsecutive threshold crossings: inspect spectra; leading rule retained.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/agreeableness/human_responses/human_train_responses.csv ; exact PA rows from diagnostic_sample_rows.csv; input/metadata MD5 match saved cache.
+Agreeableness Original keyed 1-5 N= 1000 items= 60 permutations= 200
+  Saved PCA reproduced (max error 0); PCA=8; common factors=16 (total crossings=30); 31.8 s.
+  WARNING: Nonconsecutive threshold crossings: inspect spectra; leading rule retained.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/conscientiousness/human_responses/human_train_responses.csv ; exact PA rows from diagnostic_sample_rows.csv; input/metadata MD5 match saved cache.
+Conscientiousness Original keyed 1-5 N= 1000 items= 60 permutations= 200
+  Saved PCA reproduced (max error 0); PCA=7; common factors=13 (total crossings=29); 32.5 s.
+  WARNING: Nonconsecutive threshold crossings: inspect spectra; leading rule retained.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/work_conscientiousness/human_responses/human_responses.csv ; all original 324 respondents.
+Work_conscientiousness Original keyed 1-5 N= 324 items= 19 permutations= 1000
+  Saved PCA reproduced (max error 0); PCA=3; common factors=3 (total crossings=4); 6.1 s.
+  WARNING: Nonconsecutive threshold crossings: inspect spectra; leading rule retained.
+Work_conscientiousness Keyed binary: 4/5=1; 1/2/3=0 N= 324 items= 19 permutations= 1000
+  Saved PCA reproduced (max error 0); PCA=3; common factors=3 (total crossings=4); 5.2 s.
+  WARNING: Nonconsecutive threshold crossings: inspect spectra; leading rule retained.
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/work_honesty_humility/human_responses/human_responses.csv ; all original 324 respondents.
+Work_honesty_humility Original keyed 1-5 N= 324 items= 20 permutations= 1000
+  Saved PCA reproduced (max error 0); PCA=2; common factors=2 (total crossings=4); 6.4 s.
+  WARNING: Nonconsecutive threshold crossings: inspect spectra; leading rule retained.
+Work_honesty_humility Keyed binary: 4/5=1; 1/2/3=0 N= 324 items= 20 permutations= 1000
+  Saved PCA reproduced (max error 0); PCA=2; common factors=6 (total crossings=6); 6.0 s.
+All seven scales completed; all nine saved PCA analyses reproduced. No respondents/items removed; no IRT models fitted.
+
+                  scale              response_coding existing_PCA_components
+           Extraversion           Original keyed 1-5                       7
+               Openness           Original keyed 1-5                       9
+            Neuroticism           Original keyed 1-5                       7
+          Agreeableness           Original keyed 1-5                       8
+      Conscientiousness           Original keyed 1-5                       7
+ Work_conscientiousness           Original keyed 1-5                       3
+ Work_conscientiousness Keyed binary: 4/5=1; 1/2/3=0                       3
+  Work_honesty_humility           Original keyed 1-5                       2
+  Work_honesty_humility Keyed binary: 4/5=1; 1/2/3=0                       2
+ common_factors
+             16
+             20
+             11
+             16
+             13
+              3
+              3
+              2
+              6
+
+R version 4.6.1 (2026-06-24)
+Platform: x86_64-apple-darwin20
+Running under: macOS Tahoe 26.6
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6-x86_64/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6-x86_64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: Europe/Oslo
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.6.1 tools_4.6.1   

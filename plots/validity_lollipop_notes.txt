@@ -1,0 +1,39 @@
+Source and statistical notes
+
+Only no_detail_variation; unnamed v2.1.1_no_detail_variation is DeepSeek Flash v4.1.
+All estimates recomputed from repetition-level RAW_SUM/SUM_SCORE correlations.
+Pairs join on repetition within scale; available seed/split_seed fields must agree.
+Means are calculated over the same finite pairs as the differences. No imputation.
+95% pointwise t intervals describe uncertainty in the Monte Carlo mean difference,
+not a population validity interval; no multiplicity adjustment.
+Big Five reference is the stored full-training reference, not a small-sample baseline.
+Training input has 153,570 respondents; Study 1 fit_n is 122,969 after complete-case filtering.
+Study 2 results are read from the corresponding saved result directories.
+Workplace: raw binary selected-item sums versus external convergent sums.
+Base R used because ggplot2 is not installed. No packages installed.
+
+Extraversion reference fit_n: 122969
+Work_conscientiousness reference fit_n: 224
+Work_honesty_humility reference fit_n: 224
+
+evaluate_resps/monte_carlo_study1_output/monte_carlo_results.csv
+evaluate_resps/monte_carlo_study2a_output/Openness/monte_carlo_results.csv
+evaluate_resps/monte_carlo_study2a_output/Neuroticism/monte_carlo_results.csv
+evaluate_resps/monte_carlo_study2a_output/Agreeableness/monte_carlo_results.csv
+evaluate_resps/monte_carlo_study2a_output/Conscientiousness/monte_carlo_results.csv
+evaluate_resps/monte_carlo_study2b_output/Work_conscientiousness/monte_carlo_results.csv
+evaluate_resps/monte_carlo_study2b_output/Work_honesty_humility/monte_carlo_results.csv
+
+
+
+
+
+Presentation revision
+Presentation revision: point estimates and horizontal 95% CIs only; zero-to-point stems removed.
+Pearson uses smaller filled circles; Spearman uses smaller open triangles (cex=0.8), distinguishable in grayscale.
+A single seven-entry stacked legend sits inside the upper-right of Panel A, clear of estimates.
+Panel layout heights are 5.3:3.5 (previously 5.3:2.5), increasing the physical gap between workplace scales.
+Both panels share fixed x-axis limits of -0.04 to 0.12; model and metric inclusion are unchanged.
+Panel headings use cex.main=1.0; all axis labels, tick labels and legend text are black.
+Figure 2 uses Helvetica, uppercase panel headings, no main title and no bottom directional annotations.
+Regenerated from the existing values CSV using --from-csv; numerical values were not modified.

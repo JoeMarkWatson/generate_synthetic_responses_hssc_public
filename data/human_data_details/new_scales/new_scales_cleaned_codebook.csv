@@ -1,0 +1,105 @@
+﻿variable_name,group,description,reverse_keyed,notes
+Participant id,Identifier,Participant identifier.,,
+Age_survey1,Demographics,Participant age.,,Survey 1 demographic field.
+Sex_survey1,Demographics,Participant sex.,,Survey 1 demographic field.
+Ethnicity simplified_survey1,Demographics,Simplified ethnicity category.,,Survey 1 demographic field.
+Country of birth_survey1,Demographics,Country of birth.,,Survey 1 demographic field.
+Country of residence_survey1,Demographics,Country of residence.,,Survey 1 demographic field.
+Nationality_survey1,Demographics,Nationality.,,Survey 1 demographic field.
+Language_survey1,Demographics,Language.,,Survey 1 demographic field.
+Student status_survey1,Demographics,Student status.,,Survey 1 demographic field.
+Employment status_survey1,Demographics,Employment status.,,Survey 1 demographic field.
+HH_W_N_promotion,Work HH item,I would never tell a lie to get a promotion.,,Work-related Honesty–Humility item.
+HH_W_N_coworkers,Work HH item,I put the needs of my coworkers before my own.,,Work-related Honesty–Humility item.
+HH_W_N_responsibility,Work HH item,I try to recognize when I have made a mistake and take responsibility for it.,,Work-related Honesty–Humility item.
+HH_W_N_perspectives,Work HH item,I strive to understand different perspectives.,,Work-related Honesty–Humility item.
+HH_W_N_criticism,Work HH item,I am willing to listen to constructive criticism.,,Work-related Honesty–Humility item.
+HH_W_N_credt,Work HH item,"When given credit, I make sure to share it with those who deserve it.",,Work-related Honesty–Humility item. Original dataset spelling 'credt' retained.
+HH_W_N_pressure,Work HH item,"Even when there is pressure from others, I remain honest about my work.",,Work-related Honesty–Humility item.
+HH_W_N_opportunity,Work HH item,"If given the opportunity, I will try to benefit myself over others.",,Work-related Honesty–Humility item.
+HH_W_N_colleagues,Work HH item,"When talking with colleagues, I always aim to stay positive and respectful.",,Work-related Honesty–Humility item.
+HH_W_N_disagreements,Work HH item,"In disagreements, I strive to be open-minded and accept other opinions.",,Work-related Honesty–Humility item.
+HH_W_N_respect,Work HH item,"When working in teams, I give everyone equal respect regardless of rank or experience.",,Work-related Honesty–Humility item.
+HH_W_N_integrity,Work HH item,"Even when facing tough challenges, I maintain my integrity.",,Work-related Honesty–Humility item.
+HH_W_N_guidance,Work HH item,"When working on tasks that are difficult or unfamiliar, I seek guidance rather than staying quiet.",,Work-related Honesty–Humility item.
+HH_W_N_ownership,Work HH item,"When in a leadership position, I take ownership of successes and failures.",,Work-related Honesty–Humility item.
+HH_W_N_recognition,Work HH item,"Rather than seeking recognition or praise for myself, I prefer to focus on team success.",,Work-related Honesty–Humility item.
+HH_W_N_doublecheck,Work HH item,"To ensure accurate results, I double check my work before submitting it.",,Work-related Honesty–Humility item.
+HH_W_N_meetings,Work HH item,"In meetings or presentations, I make sure not to exaggerate facts.",,Work-related Honesty–Humility item.
+HH_W_N_assistance,Work HH item,"If a colleague is struggling with their work load, I offer assistance if possible.",,Work-related Honesty–Humility item.
+HH_W_N_attacks,Work HH item,"When someone has done something wrong, I treat them fairly and avoid personal attacks.",,Work-related Honesty–Humility item.
+HH_W_N_humility,Work HH item,"At all times, I aim to maintain an attitude of humility.",,Work-related Honesty–Humility item.
+C_W_N_details,Work C item,I am organized and pay attention to details.,,Work-related Conscientiousness item.
+C_W_N_tasks,Work C item,I finish tasks on time.,,Work-related Conscientiousness item.
+C_W_N_records,Work C item,I keep accurate records of my work.,,Work-related Conscientiousness item.
+C_W_N_responsibility,Work C item,I take responsibility for my mistakes.,,Work-related Conscientiousness item.
+C_W_N_standards,Work C item,I set high standards for myself.,,Work-related Conscientiousness item.
+C_W_N_safety,Work C item,I follow safety protocols.,,Work-related Conscientiousness item.
+C_W_N_workhours,Work C item,I am flexible with my work hours.,,Work-related Conscientiousness item.
+C_W_N_deadlines,Work C item,I complete assignments ahead of deadlines.,,Work-related Conscientiousness item.
+C_W_N_initiative,Work C item,I take initiative in learning new skills or procedures.,,Work-related Conscientiousness item.
+C_W_N_feedback,Work C item,I always seek feedback from my supervisors or peers on how to improve my work performance.,,Work-related Conscientiousness item.
+C_W_N_othersresponsibility,Work C item,I make sure that others are held accountable for their responsibilities.,,Work-related Conscientiousness item.
+C_W_N_organization,Work C item,I proactively look for ways to contribute to the organization’s goals and objectives.,,Work-related Conscientiousness item.
+C_W_N_meetings,Work C item,I come prepared and well-informed to meetings.,,Work-related Conscientiousness item.
+C_W_N_changes,Work C item,I am open to changes in working practices or processes.,,Work-related Conscientiousness item.
+C_W_N_waste,Work C item,I waste time at work. (R),1,Work-related Conscientiousness item.
+C_W_N_credit,Work C item,I take credit for the accomplishments of others. (R),1,Work-related Conscientiousness item.
+C_W_N_questions,Work C item,I rarely ask questions when something is unclear. (R),1,Work-related Conscientiousness item.
+C_W_N_guidelines,Work C item,I ignore guidelines and policies. (R),1,Work-related Conscientiousness item.
+C_W_N_meetingsskip,Work C item,I skip out on important meetings. (R),1,Work-related Conscientiousness item.
+HH_flattery,General HH item,"I wouldn’t use flattery to get a raise or promotion at work, even if I thought it would succeed.",,"HEXACO-60 Honesty–Humility item (Ashton & Lee, 2009)."
+HH_million,General HH item,"If I knew that I could never get caught, I would be willing to steal a million dollars.",1,"HEXACO-60 Honesty–Humility item (Ashton & Lee, 2009)."
+HH_money,General HH item,Having a lot of money is not especially important to me.,,"HEXACO-60 Honesty–Humility item (Ashton & Lee, 2009)."
+HH_respect,General HH item,I think that I am entitled to more respect than the average person is.,1,"HEXACO-60 Honesty–Humility item (Ashton & Lee, 2009)."
+HH_jokes,General HH item,"If I want something from someone, I will laugh at that person’s worst jokes.",1,"HEXACO-60 Honesty–Humility item (Ashton & Lee, 2009)."
+HH_bribe,General HH item,"I would never accept a bribe, even if it were very large.",,"HEXACO-60 Honesty–Humility item (Ashton & Lee, 2009)."
+HH_luxury,General HH item,I would get a lot of pleasure from owning expensive luxury goods.,1,"HEXACO-60 Honesty–Humility item (Ashton & Lee, 2009)."
+HH_status,General HH item,I want people to know that I am an important person of high status.,1,"HEXACO-60 Honesty–Humility item (Ashton & Lee, 2009)."
+HH_favor,General HH item,I wouldn’t pretend to like someone just to get that person to do favors for me.,,"HEXACO-60 Honesty–Humility item (Ashton & Lee, 2009)."
+HH_counterfeit,General HH item,"I’d be tempted to use counterfeit money, if I were sure I could get away with it.",1,"HEXACO-60 Honesty–Humility item (Ashton & Lee, 2009)."
+C_tasks,General C item,Handle tasks smoothly.,,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_things,General C item,Know how to get things done.,,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_tidy,General C item,Like order.,,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_mess,General C item,Leave a mess in my room.,1,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_truth,General C item,Tell the truth.,,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_promises,General C item,Break my promises.,1,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_work,General C item,Work hard.,,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_standards,General C item,Set high standards for myself and others.,,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_plans,General C item,Carry out my plans.,,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_tasksstart,General C item,Have difficulty starting tasks.,1,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_decisions,General C item,Make rash decisions.,1,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+C_act,General C item,Act without thinking.,1,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
+WP_information,Work performance item,"If I need to perform a task that I’m not familiar with, I seek for information that allows me to perform it better.",,"Task-performance item from Carlos & Rodrigues (2015), Job knowledge subdimension."
+WP_experience,Work performance item,I don’t think I could execute my tasks effectively if I didn’t have a certain amount of experience.,,"Task-performance item from Carlos & Rodrigues (2015), Job knowledge subdimension."
+WP_agreement,Work performance item,The way I perform the basic tasks required in my job is not always in agreement with what I’m capable of doing.,1,"Task-performance item from Carlos & Rodrigues (2015), Job knowledge subdimension."
+WP_performance,Work performance item,The way I perform the basic tasks required in my job corresponds completely to the performance that the organisation where I work asks from me.,,"Task-performance item from Carlos & Rodrigues (2015), Job knowledge subdimension."
+WP_time,Work performance item,It is not always easy for me to perform tasks on time.,1,"Task-performance item from Carlos & Rodrigues (2015), Organisational skills subdimension."
+WP_deadline,Work performance item,"When I have a deadline to perform a certain task, I always finish it on time.",,"Task-performance item from Carlos & Rodrigues (2015), Organisational skills subdimension."
+WP_conjunction,Work performance item,"If I had to perform a task in conjunction with other workers, I would probably be responsible for the planning, organizing and monitorising of the work to be done.",,"Task-performance item from Carlos & Rodrigues (2015), Organisational skills subdimension."
+WP_minute,Work performance item,I always leave my tasks to the last minute.,1,"Task-performance item from Carlos & Rodrigues (2015), Organisational skills subdimension."
+WP_lack,Work performance item,I am always aware when there is a lack of the resources (material or human) needed for the efficient performance of the organisation.,,"Task-performance item from Carlos & Rodrigues (2015), Organisational skills subdimension."
+WP_disappointed,Work performance item,"Sometimes, I feel disappointed with my performance at work, because I know I could have done better.",,"Task-performance item from Carlos & Rodrigues (2015), Efficiency subdimension."
+WP_quality,Work performance item,"I consider myself a fundamental worker to the organisation I work for, due to the high quality of my performance.",,"Task-performance item from Carlos & Rodrigues (2015), Efficiency subdimension."
+WP_feedback,Work performance item,"Receiving feedback (from my subordinates, my colleagues, my supervisor or from the organisation) is fundamental in order for me to continue performing my duties with dedication.",1,"Task-performance item from Carlos & Rodrigues (2015), Efficiency subdimension."
+WV_property,Workplace deviance item,Taken property from work without permission.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_daydreaming,Workplace deviance item,Spent too much time fantasizing or daydreaming instead of working.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_receipt,Workplace deviance item,Falsified a receipt to get reimbursed for more money than you spent on business expenses.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_break,Workplace deviance item,Taken an additional or longer break than is acceptable at your workplace.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_late,Workplace deviance item,Come in late to work without permission.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_instructions,Workplace deviance item,Neglected to follow your boss’s instructions.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_confidential,Workplace deviance item,Discussed confidential company information with an unauthorized person.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_drug,Workplace deviance item,Used an illegal drug or consumed alcohol on the job.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_effort,Workplace deviance item,Put little effort into your work.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_overtime,Workplace deviance item,Dragged out work in order to get overtime.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_environment,Workplace deviance item,Littered your work environment.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+WV_slower,Workplace deviance item,Intentionally worked slower than you could have worked.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
+dupl1_Attention1,Attention check,Attention-check response immediately before the work-related HH/C item block.,,All 324 retained participants have value 3.
+Attention2_survey1,Attention check,Attention-check response immediately after the work-related HH/C item block.,,All 324 retained participants have value 3.
+browser_survey1,Metadata,Browser / user-agent information recorded for survey 1.,,
+duration_survey1,Metadata,Survey-platform duration measure for survey 1.,,
+Started at_survey1,Metadata,Survey 1 start timestamp.,,
+Completed at_survey1,Metadata,Survey 1 completion timestamp.,,
+Total approvals_survey1,Metadata,Participant's total approvals field from the recruitment/survey metadata.,,
+Status_survey1,Metadata,Survey/recruitment status.,,All 324 retained participants are APPROVED.
+demographics_match_survey1,Metadata,Indicator that demographic information matched across the relevant records.,,All 324 retained participants are True.

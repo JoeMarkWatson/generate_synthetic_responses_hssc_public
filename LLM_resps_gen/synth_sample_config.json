@@ -1,0 +1,31 @@
+{
+  "n": 1000,
+  "theta": {
+    "distribution": "normal",
+    "mean": 0.0,
+    "sd": 1.0,
+    "bounds": [-3.0, 3.0]
+  },
+  "demographics": {
+    "gender": {
+      "type": "categorical",
+      "distribution": {
+        "male": "50%",
+        "female": "50%"
+      }
+    },
+    "age": {
+      "type": "numeric_distribution",
+      "distribution": "uniform",
+      "min": 18,
+      "max": 80
+    },
+    "country": {
+      "type": "categorical",
+      "distribution": {
+        "UK": "50%",
+        "USA": "50%"
+      }    
+    }
+  }
+}

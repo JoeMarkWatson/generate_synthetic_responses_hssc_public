@@ -1,0 +1,36 @@
+# Approved reduced workplace and Big Five human-response CSVs are tracked.
+# Keep unapproved originals and unused criterion datasets private.
+/data/human_data_details/new_scales/new_scales_cleaned.csv
+/data/human_data_details/new_scales/new_scales_public_candidate_verification.txt
+/data/human_data_details/new_scales/work_conscientiousness_conv_crit/work_performance.csv
+/data/human_data_details/new_scales/work_honesty_humility_conv_crit/workplace_deviance.csv
+
+# Regenerable Monte Carlo checkpoints and individual-level intermediate results.
+monte_carlo_results.csv
+monte_carlo_state.csv
+
+# Diagnostic caches and respondent-to-source-row links.
+*.rds
+/tables/retrospective_*_item_bank_diagnostics/diagnostic_sample_rows.csv
+
+# Original locally acquired IPIP respondent data.
+/data/human_data_details/ipip/IPIP300.dat
+
+# Local environments, IDE state, bytecode, OS metadata and temporary files.
+/.venv/
+/.idea/
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+/tmp/
+/temp/
+*.tmp
+*.temp
+*.bak
+*~
+*.swp
+*.swo
+.#*
+\#*#
+.study2b-*

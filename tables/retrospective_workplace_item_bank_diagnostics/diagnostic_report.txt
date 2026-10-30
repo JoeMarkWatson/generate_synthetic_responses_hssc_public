@@ -1,0 +1,106 @@
+RETROSPECTIVE FULL WORKPLACE ITEM-BANK DIAGNOSTICS
+All available humans (expected N=324); not a Monte Carlo calibration/evaluation split.
+All 19 WC and 20 WHH items, including researcher-flagged weak items, are retained.
+No automatic respondent deletion, item deletion, imputation, or category collapsing.
+Original frequencies use literal, unreversed response categories 1,2,3,4,5, including zeros.
+Main-study coding: reverse WC16-WC20 and WHH08 using 6-x, then code keyed 4/5=1 and 1/2/3=0.
+2PL: mirt one-factor model, EM, NCYCLES=5000; other estimation settings use installed mirt defaults.
+M2: explicit type="M2", calcNull=TRUE; fallback calcNull=FALSE only if null-model indices fail.
+S-X2: mirt itemfit, mincell=1, na.rm=FALSE; Holm correction separately within each full item bank.
+S-X2 may internally merge score groups for sparse expected cells; response categories/data are not recoded for this diagnostic.
+Parallel analysis: PCA eigenvalues of Pearson correlations; 1000 independent within-column permutations.
+Each null permutation preserves each item's category frequencies and removes cross-item association.
+Both original keyed 1-5 responses and keyed binary responses are examined. No polychoric/tetrachoric correlations are used.
+Retention: leading consecutive observed eigenvalues above their ordered null 95th percentiles (quantile type=7).
+Also report total eigenvalues above threshold, in case of nonconsecutive crossings; inspect the stored eigenvalue sequences.
+PCA-based parallel analysis is a dimensionality screen, not a formal proof of unidimensional latent-factor structure.
+Pearson correlations may be affected by ordinal/binary scaling and skew; ordinal-factor analyses could differ.
+No universal fit-index cutoff is used to declare an item or bank acceptable. Interpret global and item diagnostics jointly.
+R: R version 4.6.1 (2026-06-24)
+mirt: 1.48
+RNG seed: 20261028
+RNGkind: Mersenne-Twister, Inversion, Rejection
+
+SCALE: Work_conscientiousness
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/work_conscientiousness/human_responses/human_responses.csv; MD5: d5b2e4c9fd2672d76bbe5949eae3e393
+N=324; items=19; missing cells=0; invalid cells=0; respondents/items removed=0/0.
+Flagged weak items retained: WC15, WC17, WC18
+Zero-count original categories: WC01 1
+Zero-count original categories: WC04 1
+Zero-count original categories: WC06 1
+Zero-count original categories: WC10 1
+Zero-count original categories: WC14 1
+Work_conscientiousness PA original: 3 leading components exceed 95th percentile (3 total exceedances).
+Work_conscientiousness PA binary: 3 leading components exceed 95th percentile (3 total exceedances).
+2PL converged=TRUE; EM iterations=20.
+Holm-significant item misfit: 0/19; finite item p-values: 19.
+Dimensionality caution: parallel analysis retains more than one component; the one-factor 2PL is a diagnostic of the main-study specification, not an endorsed final model.
+
+SCALE: Work_honesty_humility
+Input: /Users/josepwat/Desktop/dt/psychometrics/generate_synthetic_responses_hssc/data/work_honesty_humility/human_responses/human_responses.csv; MD5: 54820ae5edfa072108f2e24c2b7fb9bf
+N=324; items=20; missing cells=0; invalid cells=0; respondents/items removed=0/0.
+Flagged weak items retained: WHH02, WHH04, WHH05, WHH09, WHH10, WHH13
+Zero-count original categories: WHH03 1
+Zero-count original categories: WHH05 1
+Zero-count original categories: WHH06 1
+Zero-count original categories: WHH07 1
+Zero-count original categories: WHH09 1
+Zero-count original categories: WHH12 1
+Zero-count original categories: WHH16 1
+Zero-count original categories: WHH19 1
+Work_honesty_humility PA original: 2 leading components exceed 95th percentile (2 total exceedances).
+Work_honesty_humility PA binary: 2 leading components exceed 95th percentile (2 total exceedances).
+2PL converged=TRUE; EM iterations=20.
+Holm-significant item misfit: 0/20; finite item p-values: 20.
+Dimensionality caution: parallel analysis retains more than one component; the one-factor 2PL is a diagnostic of the main-study specification, not an endorsed final model.
+
+                  scale pa_original_leading pa_binary_leading irt_converged
+ Work_conscientiousness                   3                 3          TRUE
+  Work_honesty_humility                   2                 2          TRUE
+       M2  df            p      RMSEA      SRMSR       CFI       TLI
+ 285.4379 152 3.361853e-10 0.05213345 0.06924113 0.9286516 0.9197331
+ 233.0495 170 9.520880e-04 0.03388561 0.06726909 0.9753125 0.9724081
+ item_fit_holm_significant_n
+                           0
+                           0
+
+Session information:
+R version 4.6.1 (2026-06-24)
+Platform: x86_64-apple-darwin20
+Running under: macOS Tahoe 26.6
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6-x86_64/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6-x86_64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: Europe/Oslo
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] GPArotation_2026.8-2 future_1.80.0        generics_0.1.4      
+ [4] class_7.3-23         lattice_0.22-9       listenv_1.1.0       
+ [7] digest_0.6.39        magrittr_2.0.5       grid_4.6.1          
+[10] splines2_0.5.4       beepr_2.0            R.oo_1.27.1         
+[13] qs2_0.3.1            Matrix_1.7-5         R.utils_2.13.0      
+[16] mirt_1.48            sessioninfo_1.2.4    brio_1.1.5          
+[19] e1071_1.7-17         gridExtra_2.3.1      audio_0.1-12        
+[22] mgcv_1.9-4           dcurver_0.9.3        permute_0.9-10      
+[25] pbapply_1.7-5        codetools_0.2-20     cli_3.6.6           
+[28] rlang_1.3.0          R.methodsS3_1.8.2    parallelly_1.48.0   
+[31] future.apply_1.20.2  splines_4.6.1        otel_0.2.0          
+[34] vegan_2.7-6          tools_4.6.1          parallel_4.6.1      
+[37] dplyr_1.2.1          globals_0.20.0       Deriv_4.3.5         
+[40] vctrs_0.7.3          R6_2.6.1             stats4_4.6.1        
+[43] proxy_0.4-29         lifecycle_1.0.5      SimDesign_2.28      
+[46] stringfish_0.19.2    MASS_7.3-65          cluster_2.1.8.2     
+[49] pkgconfig_2.0.3      clipr_0.8.1          gtable_0.3.6        
+[52] progressr_1.0.0      RcppParallel_6.2.1   pillar_1.11.1       
+[55] glue_1.8.1           Rcpp_1.1.2           tibble_3.3.1        
+[58] tidyselect_1.2.1     nlme_3.1-169         testthat_3.3.2      
+[61] compiler_4.6.1      
