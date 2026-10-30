@@ -1,6 +1,6 @@
-# Synthetic Responses for Psychometric Item Pre-Testing
+# Synthetic Responses for Psychometric Item Pretesting
 
-Code, data and results accompanying *Synthetic Responses for Psychometric Item Pre-Testing*, submitted to *Humanities and Social Sciences Communications*.
+Code, data and results accompanying *Synthetic Responses for Psychometric Item Pretesting*, submitted to *Humanities and Social Sciences Communications*.
 
 The study examines whether LLM-generated responses can support questionnaire item selection before human calibration. It compares prompting approaches across four LLMs and evaluates item selection across five Big Five-based scales and two newly developed workplace scales.
 
@@ -61,9 +61,9 @@ These diagnostic runs are unnecessary when reproducing the appendix tables from 
 
 The Big Five analyses use the [IPIP-NEO-300 dataset](https://osf.io/wxvth/files/jdu2v) (Johnson, 2014). The original data and scoring materials are also available through [PsychArchives](https://doi.org/10.23668/psycharchives.2448). The repository includes the training and evaluation datasets used in our analyses.
 
-For the two workplace scales, the repository includes responses from 324 participants to Work Conscientiousness, Work Honesty–Humility, IPIP Conscientiousness and HEXACO Honesty–Humility. The shared dataset contains only the questionnaire responses, age, gender and country of residence, with original participant IDs replaced by arbitrary identifiers.
+For the two workplace scales, the repository includes responses from 324 participants to Work Conscientiousness, Work Honesty–Humility, IPIP Conscientiousness and HEXACO Honesty–Humility. The shared dataset contains only the questionnaire responses, age, gender and country of residence, with any participant ID info replaced by arbitrary identifiers.
 
-Large intermediate Monte Carlo results and fitted-model caches are excluded because of their size and the potential presence of individual-level information. These files can be regenerated using the supplied scripts. The aggregate results underlying the manuscript's tables and figures are retained.
+Large intermediate Monte Carlo results and fitted-model caches are excluded because of their size. These files can be regenerated using the supplied scripts. The aggregate results underlying the manuscript's tables and figures are retained.
 
 ## Requirements
 
