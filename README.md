@@ -26,7 +26,7 @@ Rscript evaluate_resps/build_retrospective_diagnostic_appendix_tables.R
 python scripts/create_table_g1.py
 ```
 
-Table 1 is calculated from the human-response datasets. Table 2 summarises the prompting conditions implemented in Study 1; the full prompt and component definitions are provided in Appendix B. Tables 3 and F1 are generated from the saved Study 1 summary. Results for Tables 4 and 5 are available in the corresponding Study 1 and Study 2 summary files. Figure 2 uses `plots/validity_lollipop_values.csv`.
+Table 1 is calculated from the human-response datasets. Table 2 summarises the prompting conditions implemented in Study 1; the full prompt and component definitions are provided in Appendix C. Tables 3 and F1 are generated from the saved Study 1 summary. Results for Tables 4 and 5 are available in the corresponding Study 1 and Study 2 summary files. Figure 2 uses `plots/validity_lollipop_values.csv`.
 
 Table G1 contains the saved paired synthetic-versus-human validity comparisons and is exported to `tables/table_g1_validity.xlsx` and `tables/table_g1_validity.csv`.
 
