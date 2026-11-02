@@ -2,13 +2,7 @@
 Participant id,Identifier,Participant identifier.,,
 Age_survey1,Demographics,Participant age.,,Survey 1 demographic field.
 Sex_survey1,Demographics,Participant sex.,,Survey 1 demographic field.
-Ethnicity simplified_survey1,Demographics,Simplified ethnicity category.,,Survey 1 demographic field.
-Country of birth_survey1,Demographics,Country of birth.,,Survey 1 demographic field.
 Country of residence_survey1,Demographics,Country of residence.,,Survey 1 demographic field.
-Nationality_survey1,Demographics,Nationality.,,Survey 1 demographic field.
-Language_survey1,Demographics,Language.,,Survey 1 demographic field.
-Student status_survey1,Demographics,Student status.,,Survey 1 demographic field.
-Employment status_survey1,Demographics,Employment status.,,Survey 1 demographic field.
 HH_W_N_promotion,Work HH item,I would never tell a lie to get a promotion.,,Work-related Honesty–Humility item.
 HH_W_N_coworkers,Work HH item,I put the needs of my coworkers before my own.,,Work-related Honesty–Humility item.
 HH_W_N_responsibility,Work HH item,I try to recognize when I have made a mistake and take responsibility for it.,,Work-related Honesty–Humility item.
@@ -70,36 +64,3 @@ C_plans,General C item,Carry out my plans.,,"IPIP-NEO-60 Conscientiousness item 
 C_tasksstart,General C item,Have difficulty starting tasks.,1,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
 C_decisions,General C item,Make rash decisions.,1,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
 C_act,General C item,Act without thinking.,1,"IPIP-NEO-60 Conscientiousness item (Maples-Keller et al., 2019)."
-WP_information,Work performance item,"If I need to perform a task that I’m not familiar with, I seek for information that allows me to perform it better.",,"Task-performance item from Carlos & Rodrigues (2015), Job knowledge subdimension."
-WP_experience,Work performance item,I don’t think I could execute my tasks effectively if I didn’t have a certain amount of experience.,,"Task-performance item from Carlos & Rodrigues (2015), Job knowledge subdimension."
-WP_agreement,Work performance item,The way I perform the basic tasks required in my job is not always in agreement with what I’m capable of doing.,1,"Task-performance item from Carlos & Rodrigues (2015), Job knowledge subdimension."
-WP_performance,Work performance item,The way I perform the basic tasks required in my job corresponds completely to the performance that the organisation where I work asks from me.,,"Task-performance item from Carlos & Rodrigues (2015), Job knowledge subdimension."
-WP_time,Work performance item,It is not always easy for me to perform tasks on time.,1,"Task-performance item from Carlos & Rodrigues (2015), Organisational skills subdimension."
-WP_deadline,Work performance item,"When I have a deadline to perform a certain task, I always finish it on time.",,"Task-performance item from Carlos & Rodrigues (2015), Organisational skills subdimension."
-WP_conjunction,Work performance item,"If I had to perform a task in conjunction with other workers, I would probably be responsible for the planning, organizing and monitorising of the work to be done.",,"Task-performance item from Carlos & Rodrigues (2015), Organisational skills subdimension."
-WP_minute,Work performance item,I always leave my tasks to the last minute.,1,"Task-performance item from Carlos & Rodrigues (2015), Organisational skills subdimension."
-WP_lack,Work performance item,I am always aware when there is a lack of the resources (material or human) needed for the efficient performance of the organisation.,,"Task-performance item from Carlos & Rodrigues (2015), Organisational skills subdimension."
-WP_disappointed,Work performance item,"Sometimes, I feel disappointed with my performance at work, because I know I could have done better.",,"Task-performance item from Carlos & Rodrigues (2015), Efficiency subdimension."
-WP_quality,Work performance item,"I consider myself a fundamental worker to the organisation I work for, due to the high quality of my performance.",,"Task-performance item from Carlos & Rodrigues (2015), Efficiency subdimension."
-WP_feedback,Work performance item,"Receiving feedback (from my subordinates, my colleagues, my supervisor or from the organisation) is fundamental in order for me to continue performing my duties with dedication.",1,"Task-performance item from Carlos & Rodrigues (2015), Efficiency subdimension."
-WV_property,Workplace deviance item,Taken property from work without permission.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_daydreaming,Workplace deviance item,Spent too much time fantasizing or daydreaming instead of working.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_receipt,Workplace deviance item,Falsified a receipt to get reimbursed for more money than you spent on business expenses.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_break,Workplace deviance item,Taken an additional or longer break than is acceptable at your workplace.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_late,Workplace deviance item,Come in late to work without permission.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_instructions,Workplace deviance item,Neglected to follow your boss’s instructions.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_confidential,Workplace deviance item,Discussed confidential company information with an unauthorized person.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_drug,Workplace deviance item,Used an illegal drug or consumed alcohol on the job.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_effort,Workplace deviance item,Put little effort into your work.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_overtime,Workplace deviance item,Dragged out work in order to get overtime.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_environment,Workplace deviance item,Littered your work environment.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-WV_slower,Workplace deviance item,Intentionally worked slower than you could have worked.,,Organizational Deviance item from Bennett & Robinson (2000). Higher responses indicate more deviant workplace behaviour.
-dupl1_Attention1,Attention check,Attention-check response immediately before the work-related HH/C item block.,,All 324 retained participants have value 3.
-Attention2_survey1,Attention check,Attention-check response immediately after the work-related HH/C item block.,,All 324 retained participants have value 3.
-browser_survey1,Metadata,Browser / user-agent information recorded for survey 1.,,
-duration_survey1,Metadata,Survey-platform duration measure for survey 1.,,
-Started at_survey1,Metadata,Survey 1 start timestamp.,,
-Completed at_survey1,Metadata,Survey 1 completion timestamp.,,
-Total approvals_survey1,Metadata,Participant's total approvals field from the recruitment/survey metadata.,,
-Status_survey1,Metadata,Survey/recruitment status.,,All 324 retained participants are APPROVED.
-demographics_match_survey1,Metadata,Indicator that demographic information matched across the relevant records.,,All 324 retained participants are True.

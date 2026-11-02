@@ -183,6 +183,11 @@ def _write_additional_datasets(source_rows):
         for dataset_name, group in config["datasets"].items():
             item_fields = [row["variable_name"] for row in codebook_rows if row["group"] == group]
             if not item_fields:
+                if group in OPTIONAL_GROUPS:
+                    prefix = {"work_performance": "WP_", "workplace_deviance": "WV_"}[dataset_name]
+                    if not any(field.startswith(prefix) for field in source_rows[0]):
+                        print(f"Skipping optional {dataset_name}: no source columns or codebook entries.")
+                        continue
                 raise ValueError(f"No codebook items found for group {group!r}")
             present = set(source_rows[0])
             missing = set(item_fields) - present
